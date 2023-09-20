@@ -89,4 +89,7 @@ import 'dart:io';
 void main() {
   int value = 2;
   print(value);
+
+  String name = "sid";
+  print(name);
 }
