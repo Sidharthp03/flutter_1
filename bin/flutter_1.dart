@@ -86,4 +86,7 @@ import 'dart:io';
 //   print("cgpa : $cgpa");
 // }
 
-
+void main() {
+  int value = 2;
+  print(value);
+}
