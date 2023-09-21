@@ -86,10 +86,88 @@ import 'dart:io';
 //   print("cgpa : $cgpa");
 // }
 
-void main() {
-  int value = 2;
-  print(value);
+// Day 6 SEP 21
 
-  String name = "sid";
-  print(name);
-}
+//void main() {
+// // Arthimetic Operator + - * / % ~/
+//   int a = 15;
+//   double b = 20.5;
+//   print("$a + $b = ${a + b}");
+//   print("$a - $b = ${a - b}");
+//   print("$a * $b = ${a * b}");
+//   print("$a / $b = ${a / b}");
+//   print("$a % $b = ${a % b}");
+//   print("$a ~/ $b = ${a ~/ b}");
+
+/// ASSIGNMENT OPERATOR =, +=, -=, %=, ~/=, Etc
+
+//   dynamic x = 12, y = 5;
+
+//   // the value of X will be updated on each line
+
+//   print("x = y -> ${x = y}"); // x = y  x = 5
+//   print("x += y -> ${x += y}"); // x += y = 5+5 = 10
+//   print("x -= y -> ${x -= y}"); // x = x-y = 10-5 = 5
+//   print("x 8= y -> ${x *= y}");
+//   print("x %= y -> ${x %= y}");
+//   print("x /= y -> ${x /= y}"); // x = x/y
+// }
+
+/// Relational Operator >, <, >=, <=, ==, !=
+
+// int x = 100, y = 25;
+// print("x>y  -> ${x > y}");
+// print("x<y  -> ${x < y}");
+// print("x>=y  -> ${x >= y}");
+// print("x<=y  -> ${x <= y}");
+// print("x==y  -> ${x == y}");
+// print("x!=y  -> ${x != y}");
+
+///Logical Operator  &&, ||, !
+
+// String username = "admin";
+// String password = "abc123";
+// int otp = 1234;
+// print(username == "admin" && password == "abc123"); // false && true = false
+// print(username == "admin" && password == "abc123" ||
+//     otp == 1234); // false || true
+// print(!(username == "admin" && password == "abc123"));
+
+/// &&- and, ||- or, ! - not
+
+///TYPE TEST OPERATOR - is  is!
+
+// double k = 100; //100.0
+// print(k is int);
+// print(k is! String);
+
+/// bitwise operator & | ^(xor) - to perform operations on binary values
+/// shift operator >> (right shift)   <<(left shift operator)
+
+/// *** conditional operator
+/// 1. expression/condition ? true statement : false statement
+/// 2. expressiona 1 ?? expression 2
+/// ( if expression1 is null then expression 2 will execute else expression 1 will be executed)
+
+//   var result = (username == "admin" && password == "abc123")
+//       ? "welcome user"
+//       : "incorrect password or username";
+//   print(result);
+//   // String? name = "john";
+//   // var out = name?.length ??
+// }
+
+// void main() {
+//   String username = "admin";
+//   String password = "admin123";
+
+//   var result = (username == "admin" && password == "admin123")
+//       ? "welcome user"
+//       : "incorrect username or password";
+
+//   print(result);
+
+//   int x = 100, y = 2005, z = 340;
+//   var out = x > y ? (x > z ? x : z) : (y > z ? y : z);
+//   print("$out is the largest number");
+// }
